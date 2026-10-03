@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+database.db
+
+logs/events.log
+logs/entries/
+logs/exits/
+
+output/
+
+.env
+.idea/
+.vscode/

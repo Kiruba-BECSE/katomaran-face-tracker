@@ -1,0 +1,11 @@
+{
+    "video_source": "input/sample.mp4",
+    "detection_skip_frames": 5,
+    "recognition_threshold": 0.5,
+    "exit_timeout_frames": 30,
+    "database_path": "database.db",
+    "entry_log_dir": "logs/entries",
+    "exit_log_dir": "logs/exits",
+    "event_log_file": "logs/events.log",
+    "output_video": "output/result.mp4"
+}
