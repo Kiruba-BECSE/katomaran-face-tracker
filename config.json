@@ -1,11 +1,18 @@
 {
     "video_source": "input/sample.mp4",
+    "yolo_model": "models/yolov8n-face.pt",
+
     "detection_skip_frames": 5,
+
+    "detection_confidence": 0.5,
     "recognition_threshold": 0.5,
-    "exit_timeout_frames": 30,
-    "database_path": "database.db",
-    "entry_log_dir": "logs/entries",
-    "exit_log_dir": "logs/exits",
-    "event_log_file": "logs/events.log",
-    "output_video": "output/result.mp4"
+
+    "tracking_max_missing_frames": 30,
+
+    "output_video": "output/tracked_output.mp4",
+
+    "entry_log_folder": "logs/entries",
+    "exit_log_folder": "logs/exits",
+
+    "event_log": "logs/events.log"
 }
