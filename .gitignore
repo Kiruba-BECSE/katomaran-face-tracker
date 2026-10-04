@@ -8,7 +8,7 @@ logs/events.log
 logs/entries/
 logs/exits/
 
-output/
+
 
 .env
 .idea/
